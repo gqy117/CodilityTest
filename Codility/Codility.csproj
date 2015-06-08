@@ -39,9 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrogJmp.cs" />
-    <Compile Include="Equilibrium.cs" />
-    <Compile Include="PermMissingElem.cs" />
+    <Compile Include="Lesson1\FrogJmp.cs" />
+    <Compile Include="Demo\Equilibrium.cs" />
+    <Compile Include="Lesson1\PermMissingElem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

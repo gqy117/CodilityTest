@@ -48,9 +48,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrogJmpTest.cs" />
-    <Compile Include="EquilibriumTest.cs" />
-    <Compile Include="PermMissingElemTest.cs" />
+    <Compile Include="Lesson1\FrogJmpTest.cs" />
+    <Compile Include="Demo\EquilibriumTest.cs" />
+    <Compile Include="Lesson1\PermMissingElemTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
