@@ -14,7 +14,7 @@
     {
         [Test]
         [TestCase(new int[] { -1, 3, -4, 5, 1, -6, 2, 1 }, 1)]
-        public void Equilibrium_DemoTest(int[] a, int expected)
+        public void Equilibrium_Default(int[] a, int expected)
         {
             ExecuteSolution(a, expected);
         }
