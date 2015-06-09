@@ -11,13 +11,8 @@
         public static int[] Solution(int N, int[] A)
         {
             int[] counters = new int[N];
-            for (int i = 0; i < counters.Length; i++)
-            {
-                counters[i] = 0;
-            }
-
             int currentMax = 0;
-            int currentCountValue = 0;
+            int currentMin = 0;
 
             for (int K = 0; K < A.Length; K++)
             {
@@ -25,17 +20,23 @@
 
                 if (1 <= X && X <= N)
                 {
+                    if (counters[X - 1] < currentMin)
+                    {
+                        counters[X - 1] = currentMin;
+                    }
+
                     counters[X - 1]++;
-                    currentCountValue = counters[X - 1];
-                    currentMax = Math.Max(currentMax, currentCountValue);
+                    currentMax = Math.Max(currentMax, counters[X - 1]);
                 }
                 else
                 {
-                    for (int i = 0; i < counters.Length; i++)
-                    {
-                        counters[i] = currentMax;
-                    }
+                    currentMin = currentMax;
                 }
+            }
+
+            for (int i = 0; i < counters.Length; i++)
+            {
+                counters[i] = counters[i] < currentMin ? currentMin : counters[i];
             }
 
             return counters;
