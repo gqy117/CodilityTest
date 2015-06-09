@@ -7,7 +7,6 @@
     using System.Text;
     using System.Threading.Tasks;
     using Codility;
-    using FluentAssertions;
     using NUnit.Framework;
 
     [TestFixture]
