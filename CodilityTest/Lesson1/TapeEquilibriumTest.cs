@@ -1,11 +1,11 @@
-﻿namespace CodilityTest.Lesson1
+﻿namespace CodilityTest
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
-    using Codility.Lesson1;
+    using Codility;
     using FluentAssertions;
     using NUnit.Framework;
 

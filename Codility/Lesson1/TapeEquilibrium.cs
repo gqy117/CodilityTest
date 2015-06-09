@@ -1,4 +1,4 @@
-﻿namespace Codility.Lesson1
+﻿namespace Codility
 {
     using System;
     using System.Collections.Generic;
