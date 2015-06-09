@@ -45,6 +45,7 @@
     <Compile Include="Demo\Equilibrium.cs" />
     <Compile Include="Lesson1\PermMissingElem.cs" />
     <Compile Include="Lesson1\TapeEquilibrium.cs" />
+    <Compile Include="Lesson2\MaxCounters.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
