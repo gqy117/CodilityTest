@@ -49,6 +49,7 @@
     <Compile Include="Lesson2\MaxCountersTest.cs" />
     <Compile Include="Lesson1\PermMissingElemTest.cs" />
     <Compile Include="Lesson1\TapeEquilibriumTest.cs" />
+    <Compile Include="Lesson2\PermCheckTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
