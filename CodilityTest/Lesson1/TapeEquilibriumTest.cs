@@ -63,6 +63,13 @@
             ExecuteSolution(A, expected);
         }
 
+        [Test]
+        [TestCase(new int[] { int.MaxValue, int.MaxValue, 1 }, 1)]
+        public void TapeEquilibrium_NEquals3_Max_Max_1(int[] A, int expected)
+        {
+            ExecuteSolution(A, expected);
+        }
+
         private static void ExecuteSolution(int[] A, int expected)
         {
             // Arrange

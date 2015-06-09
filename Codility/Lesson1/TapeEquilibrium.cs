@@ -12,7 +12,8 @@
         {
             int n = A.Length;
             long sumLeft = 0;
-            long sumRight = A.Sum() - sumLeft;
+            long sumRight = A.Select(x => (long)x).Sum() - sumLeft;
+
             IList<long> listDifference = new List<long>();
 
             for (int p = 1; p < n; p++)
