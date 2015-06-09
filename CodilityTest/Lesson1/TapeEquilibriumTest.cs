@@ -6,7 +6,6 @@
     using System.Text;
     using System.Threading.Tasks;
     using Codility.Lesson1;
-    using FluentAssertions;
     using NUnit.Framework;
 
     [TestFixture]
@@ -78,7 +77,7 @@
             var actual = TapeEquilibrium.Solution(A);
 
             // Assert
-            actual.ShouldBeEquivalentTo(expected);
+            Assert.AreEqual(expected, actual);;
         }
     }
 }

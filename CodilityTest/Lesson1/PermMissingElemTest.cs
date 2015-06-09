@@ -6,7 +6,6 @@
     using System.Text;
     using System.Threading.Tasks;
     using Codility;
-    using FluentAssertions;
     using NUnit.Framework;
 
     [TestFixture]
@@ -76,7 +75,7 @@
             var actual = PermMissingElem.Solution(A);
 
             // Assert
-            actual.ShouldBeEquivalentTo(expected);
+            Assert.AreEqual(expected, actual);;
         }
     }
 }

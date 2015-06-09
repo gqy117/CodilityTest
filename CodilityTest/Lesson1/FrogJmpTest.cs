@@ -6,7 +6,6 @@
     using System.Text;
     using System.Threading.Tasks;
     using Codility;
-    using FluentAssertions;
     using NUnit.Framework;
 
     [TestFixture]
@@ -55,7 +54,7 @@
             var actual = FrogJmp.Solution(X, Y, D);
 
             // Assert
-            actual.ShouldBeEquivalentTo(expected);
+            Assert.AreEqual(expected, actual);;
         }
     }
 }
