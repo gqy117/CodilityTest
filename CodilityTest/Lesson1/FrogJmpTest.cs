@@ -54,7 +54,7 @@
             var actual = FrogJmp.Solution(X, Y, D);
 
             // Assert
-            Assert.AreEqual(expected, actual);;
+            Assert.AreEqual(expected, actual);
         }
     }
 }
