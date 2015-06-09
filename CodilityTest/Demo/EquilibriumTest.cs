@@ -6,7 +6,6 @@
     using System.Text;
     using System.Threading.Tasks;
     using Codility;
-    using FluentAssertions;
     using NUnit.Framework;
 
     [TestFixture]
@@ -48,7 +47,7 @@
             var actual = Equilibrium.Solution(a);
 
             // Assert
-            actual.ShouldBeEquivalentTo(expected);
+            Assert.AreEqual(expected, actual);;
         }
     }
 }
