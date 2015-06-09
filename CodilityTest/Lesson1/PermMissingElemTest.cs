@@ -75,7 +75,7 @@
             var actual = PermMissingElem.Solution(A);
 
             // Assert
-            Assert.AreEqual(expected, actual);;
+            Assert.AreEqual(expected, actual);
         }
     }
 }

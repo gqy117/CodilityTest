@@ -47,7 +47,7 @@
             var actual = Equilibrium.Solution(a);
 
             // Assert
-            Assert.AreEqual(expected, actual);;
+            Assert.AreEqual(expected, actual);
         }
     }
 }
