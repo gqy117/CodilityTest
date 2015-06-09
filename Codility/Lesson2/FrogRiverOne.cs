@@ -1,8 +1,6 @@
 ﻿namespace Codility
 {
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
 
@@ -10,21 +8,17 @@
     {
         public static int Solution(int X, int[] A)
         {
-            IList<int> expectedList = new List<int>();
-
-            for (int i = 0; i < X; i++)
-            {
-                expectedList.Add(i + 1);
-            }
-
+            bool[] expectedList = new bool[X];
+            int steps = X;
             for (int K = 0; K < A.Length; K++)
             {
-                if (expectedList.Contains(A[K]))
+                if (A[K] <= X && !expectedList[A[K] - 1])
                 {
-                    expectedList.Remove(A[K]);
+                    expectedList[A[K] - 1] = true;
+                    steps--;
                 }
 
-                if (0 == expectedList.Count)
+                if (0 == steps)
                 {
                     return K;
                 }

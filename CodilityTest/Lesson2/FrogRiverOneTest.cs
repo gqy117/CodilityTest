@@ -32,7 +32,6 @@
             ExecuteSolution(X, A, expected);
         }
 
-
         [Test]
         [TestCase(1, new int[] { 100000 }, -1)]
         public void MaxCounters_BigAValue_XEquals1(int X, int[] A, int expected)
