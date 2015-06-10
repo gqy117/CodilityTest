@@ -2,6 +2,7 @@
 #################
 ## Eclipse
 #################
+~$n*.docx
 StyleCop.Cache
 *.log
 *.jrs
