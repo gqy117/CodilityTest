@@ -49,6 +49,7 @@
     <Compile Include="Lesson2\MaxCounters\MaxCounters.cs" />
     <Compile Include="Lesson2\MissingInteger\MissingInteger.cs" />
     <Compile Include="Lesson2\PermCheck\PermCheck.cs" />
+    <Compile Include="Lesson3\CountDiv\CountDiv.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -59,6 +60,7 @@
     <None Include="Lesson2\MaxCounters\MaxCounters.docx" />
     <None Include="Lesson2\MissingInteger\MissingInteger.docx" />
     <None Include="Lesson2\PermCheck\PermCheck.docx" />
+    <None Include="Lesson3\CountDiv\CountDiv.docx" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
