@@ -41,17 +41,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lesson1\FrogJmp.cs" />
     <Compile Include="Demo\Equilibrium.cs" />
-    <Compile Include="Lesson1\PermMissingElem.cs" />
-    <Compile Include="Lesson1\TapeEquilibrium.cs" />
-    <Compile Include="Lesson2\FrogRiverOne.cs" />
-    <Compile Include="Lesson2\MaxCounters.cs" />
-    <Compile Include="Lesson2\MissingInteger.cs" />
-    <Compile Include="Lesson2\PermCheck.cs" />
+    <Compile Include="Lesson1\FrogJmp\FrogJmp.cs" />
+    <Compile Include="Lesson1\PermMissingElem\PermMissingElem.cs" />
+    <Compile Include="Lesson1\TapeEquilibrium\TapeEquilibrium.cs" />
+    <Compile Include="Lesson2\FrogRiverOne\FrogRiverOne.cs" />
+    <Compile Include="Lesson2\MaxCounters\MaxCounters.cs" />
+    <Compile Include="Lesson2\MissingInteger\MissingInteger.cs" />
+    <Compile Include="Lesson2\PermCheck\PermCheck.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Lesson1\FrogJmp\FrogJmp.docx" />
+    <None Include="Lesson1\PermMissingElem\PermMissingElem.docx" />
+    <None Include="Lesson1\TapeEquilibrium\TapeEquilibrium.docx" />
+    <None Include="Lesson2\FrogRiverOne\FrogRiverOne.docx" />
+    <None Include="Lesson2\MaxCounters\MaxCounters.docx" />
+    <None Include="Lesson2\MissingInteger\MissingInteger.docx" />
+    <None Include="Lesson2\PermCheck\PermCheck.docx" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
