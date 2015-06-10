@@ -53,6 +53,7 @@
     <Compile Include="Lesson2\MissingIntegerTest.cs" />
     <Compile Include="Lesson2\PermCheckTest.cs" />
     <Compile Include="Lesson3\CountDivTest.cs" />
+    <Compile Include="Lesson3\MinAvgTwoSliceTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
