@@ -47,6 +47,7 @@
     <Compile Include="Lesson1\TapeEquilibrium.cs" />
     <Compile Include="Lesson2\FrogRiverOne.cs" />
     <Compile Include="Lesson2\MaxCounters.cs" />
+    <Compile Include="Lesson2\MissingInteger.cs" />
     <Compile Include="Lesson2\PermCheck.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
