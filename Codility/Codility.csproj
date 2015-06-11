@@ -63,6 +63,7 @@
     <None Include="Lesson2\MissingInteger\MissingInteger.docx" />
     <None Include="Lesson2\PermCheck\PermCheck.docx" />
     <None Include="Lesson3\CountDiv\CountDiv.docx" />
+    <None Include="Lesson3\GenomicRangeQuery\GenomicRangeQuery.docx" />
     <None Include="Lesson3\MinAvgTwoSlice\MinAvgTwoSlice.docx" />
     <None Include="packages.config" />
   </ItemGroup>
