@@ -23,23 +23,10 @@
             return result;
         }
 
-        private static int[] ConvertCharArrayToIntArray(string S, char[] charS)
-        {
-            int[] intS = new int[S.Length];
-
-            for (int i = 0; i < S.Length; i++)
-            {
-                var num = GetNum(charS, i);
-                intS[i] = num;
-            }
-
-            return intS;
-        }
-
-        private static int GetNum(char[] charS, int i)
+        public static int GetNum(char c)
         {
             int num = 0;
-            switch (charS[i])
+            switch (c)
             {
                 case 'A':
                     num = 1;
@@ -56,6 +43,41 @@
             }
 
             return num;
+        }
+
+        public static char GetChar(int i)
+        {
+            char c = ' ';
+            switch (i)
+            {
+                case 1:
+                    c = 'A';
+                    break;
+                case 2:
+                    c = 'C';
+                    break;
+                case 3:
+                    c = 'G';
+                    break;
+                case 4:
+                    c = 'T';
+                    break;
+            }
+
+            return c;
+        }
+
+        private static int[] ConvertCharArrayToIntArray(string S, char[] charS)
+        {
+            int[] intS = new int[S.Length];
+
+            for (int i = 0; i < S.Length; i++)
+            {
+                var num = GetNum(charS[i]);
+                intS[i] = num;
+            }
+
+            return intS;
         }
     }
 }
