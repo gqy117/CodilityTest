@@ -19,6 +19,13 @@
         }
 
         [Test]
+        [TestCase("AC", new int[] { 0, 0, 1 }, new int[] { 1, 1, 1 }, new int[] { 1, 1, 2 })]
+        public void MaxCounters_ExtremeDouble(string S, int[] P, int[] Q, int[] expected)
+        {
+            ExecuteSolution(S, P, Q, expected);
+        }
+
+        [Test]
         [TestCase(100000, new int[] { 2, 5, 0 }, new int[] { 4, 5, 99999 }, new int[] { 1, 1, 1 })]
         public void MaxCounters_N100000(int N, int[] P, int[] Q, int[] expected)
         {
