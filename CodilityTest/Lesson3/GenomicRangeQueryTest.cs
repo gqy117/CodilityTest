@@ -12,13 +12,13 @@
     public class GenomicRangeQueryTest
     {
         [Test]
-        [TestCase("CAGCCTA", new int[] { 2, 5, 0 }, new int[] { 4, 5, 6 }, 1)]
-        public void MaxCounters_Default(string S, int[] P, int[] Q, int expected)
+        [TestCase("CAGCCTA", new int[] { 2, 5, 0 }, new int[] { 4, 5, 6 }, new int[] { 2, 4, 1 })]
+        public void MaxCounters_Default(string S, int[] P, int[] Q, int[] expected)
         {
             ExecuteSolution(S, P, Q, expected);
         }
 
-        private static void ExecuteSolution(string S, int[] P, int[] Q, int expected)
+        private static void ExecuteSolution(string S, int[] P, int[] Q, int[] expected)
         {
             // Arrange
 
