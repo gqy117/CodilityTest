@@ -50,6 +50,7 @@
     <Compile Include="Lesson2\MissingInteger\MissingInteger.cs" />
     <Compile Include="Lesson2\PermCheck\PermCheck.cs" />
     <Compile Include="Lesson3\CountDiv\CountDiv.cs" />
+    <Compile Include="Lesson3\GenomicRangeQuery\GenomicRangeQuery.cs" />
     <Compile Include="Lesson3\MinAvgTwoSlice\MinAvgTwoSlice.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -65,6 +66,7 @@
     <None Include="Lesson3\MinAvgTwoSlice\MinAvgTwoSlice.docx" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\StyleCop.MSBuild.4.7.49.1\build\StyleCop.MSBuild.Targets" Condition="Exists('..\packages\StyleCop.MSBuild.4.7.49.1\build\StyleCop.MSBuild.Targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
