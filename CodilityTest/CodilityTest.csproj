@@ -55,6 +55,7 @@
     <Compile Include="Lesson3\CountDivTest.cs" />
     <Compile Include="Lesson3\GenomicRangeQueryTest.cs" />
     <Compile Include="Lesson3\MinAvgTwoSliceTest.cs" />
+    <Compile Include="Lesson3\PassingCarsTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
