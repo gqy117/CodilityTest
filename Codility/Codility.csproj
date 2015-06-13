@@ -53,6 +53,7 @@
     <Compile Include="Lesson3\GenomicRangeQuery\GenomicRangeQuery.cs" />
     <Compile Include="Lesson3\MinAvgTwoSlice\MinAvgTwoSlice.cs" />
     <Compile Include="Lesson3\PassingCars\PassingCars.cs" />
+    <Compile Include="Lesson4\NumberOfDiscIntersections\NumberOfDiscIntersections.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -67,6 +68,7 @@
     <None Include="Lesson3\GenomicRangeQuery\GenomicRangeQuery.docx" />
     <None Include="Lesson3\MinAvgTwoSlice\MinAvgTwoSlice.docx" />
     <None Include="Lesson3\PassingCars\PassingCars.docx" />
+    <None Include="Lesson4\NumberOfDiscIntersections\NumberOfDiscIntersections.docx" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
