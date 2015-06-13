@@ -16,14 +16,14 @@
         [TestCase(6, 12, 2, 4)]
         [TestCase(6, 13, 2, 4)]
         [TestCase(6, 14, 2, 5)]
-        public void MaxCounters_Default(int A, int B, int K, int expected)
+        public void CountDiv_Default(int A, int B, int K, int expected)
         {
             ExecuteSolution(A, B, K, expected);
         }
 
         [Test]
         [TestCase(3, 10, 2, 4)]
-        public void MaxCounters_From3To10_K2(int A, int B, int K, int expected)
+        public void CountDiv_From3To10_K2(int A, int B, int K, int expected)
         {
             ExecuteSolution(A, B, K, expected);
         }
@@ -32,7 +32,7 @@
         [TestCase(0, 0, 1, 1)]
         [TestCase(2000000000, 2000000000, 1, 1)]
         [TestCase(0, 2000000000, 1, 2000000001)]
-        public void MaxCounters_A_B_Max_Min(int A, int B, int K, int expected)
+        public void CountDiv_A_B_Max_Min(int A, int B, int K, int expected)
         {
             ExecuteSolution(A, B, K, expected);
         }

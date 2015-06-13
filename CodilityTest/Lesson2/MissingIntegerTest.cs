@@ -13,49 +13,49 @@
     {
         [Test]
         [TestCase(new int[] { 1, 3, 6, 4, 1, 2 }, 5)]
-        public void MaxCounters_Default(int[] A, int expected)
+        public void MissingInteger_Default(int[] A, int expected)
         {
             ExecuteSolution(A, expected);
         }
 
         [Test]
         [TestCase(new int[] { 2 }, 1)]
-        public void MaxCounters_N1_Element2(int[] A, int expected)
+        public void MissingInteger_N1_Element2(int[] A, int expected)
         {
             ExecuteSolution(A, expected);
         }
 
         [Test]
         [TestCase(new int[] { 1 }, 2)]
-        public void MaxCounters_N1_Element1(int[] A, int expected)
+        public void MissingInteger_N1_Element1(int[] A, int expected)
         {
             ExecuteSolution(A, expected);
         }
 
         [Test]
         [TestCase(new int[] { int.MaxValue }, 1)]
-        public void MaxCounters_N1_ElementMax(int[] A, int expected)
+        public void MissingInteger_N1_ElementMax(int[] A, int expected)
         {
             ExecuteSolution(A, expected);
         }
 
         [Test]
         [TestCase(new int[] { int.MaxValue, int.MaxValue }, 1)]
-        public void MaxCounters_N2_ElementMax_ElementMax(int[] A, int expected)
+        public void MissingInteger_N2_ElementMax_ElementMax(int[] A, int expected)
         {
             ExecuteSolution(A, expected);
         }
 
         [Test]
         [TestCase(new int[] { int.MaxValue, int.MinValue }, 1)]
-        public void MaxCounters_N2_ElementMax_ElementMin(int[] A, int expected)
+        public void MissingInteger_N2_ElementMax_ElementMin(int[] A, int expected)
         {
             ExecuteSolution(A, expected);
         }
 
         [Test]
         [TestCase(100000, 1)]
-        public void MaxCounters_N100000_ElementAllMax(int N, int expected)
+        public void MissingInteger_N100000_ElementAllMax(int N, int expected)
         {
             int[] A = new int[N];
 
@@ -69,7 +69,7 @@
 
         [Test]
         [TestCase(100000, 1)]
-        public void MaxCounters_N100000_ElementAllMin(int N, int expected)
+        public void MissingInteger_N100000_ElementAllMin(int N, int expected)
         {
             int[] A = new int[N];
 
@@ -83,7 +83,7 @@
 
         [Test]
         [TestCase(100000, 2)]
-        public void MaxCounters_N100000_ElementAllMin_And1(int N, int expected)
+        public void MissingInteger_N100000_ElementAllMin_And1(int N, int expected)
         {
             int[] A = new int[N];
 
@@ -99,7 +99,7 @@
 
         [Test]
         [TestCase(100000, 100001)]
-        public void MaxCounters_N100000_ElementOneByOne(int N, int expected)
+        public void MissingInteger_N100000_ElementOneByOne(int N, int expected)
         {
             int[] A = new int[N];
 
@@ -113,7 +113,7 @@
 
         [Test]
         [TestCase(new int[] { int.MinValue, int.MinValue }, 1)]
-        public void MaxCounters_N2_ElementMin_ElementMin(int[] A, int expected)
+        public void MissingInteger_N2_ElementMin_ElementMin(int[] A, int expected)
         {
             ExecuteSolution(A, expected);
         }
