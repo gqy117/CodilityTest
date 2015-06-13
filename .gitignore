@@ -3,7 +3,7 @@ debug
 #################
 ## Eclipse
 #################
-~$n*.docx
+~$*.doc*
 StyleCop.Cache
 *.log
 *.jrs
