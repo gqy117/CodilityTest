@@ -7,7 +7,7 @@
     {
         [Test]
         [TestCase(4, new int[] { 1, 2, 3, 4, 1, 1, 3 }, 3)]
-        public void MaxNonoverlappingSegments_Default(int K, int[] A, int expected)
+        public void TieRopes_Default(int K, int[] A, int expected)
         {
             ExecuteSolution(K, A, expected);
         }
@@ -16,7 +16,7 @@
         [TestCase(1, new int[] { 1 }, 1)]
         [TestCase(2, new int[] { 1 }, 0)]
         [TestCase(1, new int[] { 2 }, 1)]
-        public void MaxNonoverlappingSegments_N1_K1(int K, int[] A, int expected)
+        public void TieRopes_N1_K1(int K, int[] A, int expected)
         {
             ExecuteSolution(K, A, expected);
         }
@@ -24,7 +24,7 @@
         [Test]
         [TestCase(1000000000, new int[] { 1 }, 0)]
         [TestCase(1000000000, new int[] { 1000000000 }, 1)]
-        public void MaxNonoverlappingSegments_N1_KMax(int K, int[] A, int expected)
+        public void TieRopes_N1_KMax(int K, int[] A, int expected)
         {
             ExecuteSolution(K, A, expected);
         }
