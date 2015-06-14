@@ -6,7 +6,7 @@
     public class DistinctTest
     {
         [Test]
-        [TestCase(new int[] { 1, 5, 2, 1, 4, 0 }, 11)]
+        [TestCase(new int[] { 2, 1, 1, 2, 3, 1 }, 3)]
         public void DistinctTest_Default(int[] A, int expected)
         {
             ExecuteSolution(A, expected);
