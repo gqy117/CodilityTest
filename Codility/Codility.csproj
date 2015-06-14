@@ -80,6 +80,7 @@
     <None Include="Lesson4\NumberOfDiscIntersections\NumberOfDiscIntersections.docx" />
     <None Include="Lesson4\Triangle\Triangle.docx" />
     <None Include="packages.config" />
+    <None Include="Settings.StyleCop" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
