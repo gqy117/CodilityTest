@@ -59,6 +59,7 @@
     <Compile Include="Lesson3\MinAvgTwoSliceTest.cs" />
     <Compile Include="Lesson3\PassingCarsTest.cs" />
     <Compile Include="Lesson4\DistinctTest.cs" />
+    <Compile Include="Lesson4\MaxProductOfThreeTest.cs" />
     <Compile Include="Lesson4\NumberOfDiscIntersectionsTest.cs" />
     <Compile Include="Lesson4\TriangleTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
