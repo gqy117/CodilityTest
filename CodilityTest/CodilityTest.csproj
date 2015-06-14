@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Lesson12\MinMaxDivisionTest.cs" />
     <Compile Include="Lesson14\MaxNonoverlappingSegmentsTest.cs" />
     <Compile Include="Lesson14\TieRopesTest.cs" />
     <Compile Include="Lesson1\FrogJmpTest.cs" />
