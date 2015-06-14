@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Demo\Equilibrium.cs" />
+    <Compile Include="Lesson12\MinMaxDivision\MinMaxDivision.cs" />
     <Compile Include="Lesson14\MaxNonoverlappingSegments\MaxNonoverlappingSegments.cs" />
     <Compile Include="Lesson14\TieRopes\TieRopes.cs" />
     <Compile Include="Lesson1\FrogJmp\FrogJmp.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Lesson12\MinMaxDivision\MinMaxDivision.docx" />
     <None Include="Lesson14\MaxNonoverlappingSegments\MaxNonoverlappingSegments.docx" />
     <None Include="Lesson14\TieRopes\TieRopes.docx" />
     <None Include="Lesson1\FrogJmp\FrogJmp.docx" />
