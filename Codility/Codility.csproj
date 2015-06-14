@@ -58,6 +58,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Lesson14\MaxNonoverlappingSegments\MaxNonoverlappingSegments.docx" />
     <None Include="Lesson1\FrogJmp\FrogJmp.docx" />
     <None Include="Lesson1\PermMissingElem\PermMissingElem.docx" />
     <None Include="Lesson1\TapeEquilibrium\TapeEquilibrium.docx" />
