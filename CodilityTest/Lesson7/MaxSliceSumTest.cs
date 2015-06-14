@@ -13,6 +13,13 @@
             ExecuteSolution(A, expected);
         }
 
+        [Test]
+        [TestCase(new int[] { 3, 2, -4, 1 }, 5)]
+        public void MaxSliceSum_SmallNegative(int[] A, int expected)
+        {
+            ExecuteSolution(A, expected);
+        }
+
         private static void ExecuteSolution(int[] A, int expected)
         {
             // Arrange
