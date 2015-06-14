@@ -12,6 +12,34 @@
             ExecuteSolution(A, B, expected);
         }
 
+        [Test]
+        [TestCase(new int[] { }, new int[] { }, 0)]
+        public void MaxNonoverlappingSegments_N0(int[] A, int[] B, int expected)
+        {
+            ExecuteSolution(A, B, expected);
+        }
+
+        [Test]
+        [TestCase(new int[] { 0 }, new int[] { 0 }, 1)]
+        public void MaxNonoverlappingSegments_N1(int[] A, int[] B, int expected)
+        {
+            ExecuteSolution(A, B, expected);
+        }
+
+        [Test]
+        [TestCase(new int[] { 0, 1 }, new int[] { 0, 1 }, 2)]
+        public void MaxNonoverlappingSegments_N2(int[] A, int[] B, int expected)
+        {
+            ExecuteSolution(A, B, expected);
+        }
+
+        [Test]
+        [TestCase(new int[] { 0, 1, 2 }, new int[] { 0, 1, 2 }, 3)]
+        public void MaxNonoverlappingSegments_N3(int[] A, int[] B, int expected)
+        {
+            ExecuteSolution(A, B, expected);
+        }
+
         private static void ExecuteSolution(int[] A, int[] B, int expected)
         {
             // Arrange
