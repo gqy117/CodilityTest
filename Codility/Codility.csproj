@@ -61,6 +61,7 @@
     <Compile Include="Lesson4\MaxProductOfThree\MaxProductOfThree.cs" />
     <Compile Include="Lesson4\NumberOfDiscIntersections\NumberOfDiscIntersections.cs" />
     <Compile Include="Lesson4\Triangle\Triangle.cs" />
+    <Compile Include="Lesson7\MaxProfit\MaxProfit.cs" />
     <Compile Include="Lesson7\MaxSliceSum\MaxSliceSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -84,6 +85,7 @@
     <None Include="Lesson4\MaxProductOfThree\MaxProductOfThree.docx" />
     <None Include="Lesson4\NumberOfDiscIntersections\NumberOfDiscIntersections.docx" />
     <None Include="Lesson4\Triangle\Triangle.docx" />
+    <None Include="Lesson7\MaxProfit\MaxProfit.docx" />
     <None Include="Lesson7\MaxSliceSum\MaxSliceSum.docx" />
     <None Include="packages.config" />
     <None Include="Settings.StyleCop" />
