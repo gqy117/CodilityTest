@@ -64,6 +64,7 @@
     <Compile Include="Lesson4\MaxProductOfThreeTest.cs" />
     <Compile Include="Lesson4\NumberOfDiscIntersectionsTest.cs" />
     <Compile Include="Lesson4\TriangleTest.cs" />
+    <Compile Include="Lesson7\MaxSliceSumTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
