@@ -6,7 +6,8 @@
     public class TriangleTest
     {
         [Test]
-        [TestCase(new int[] { 1, 5, 2, 1, 4, 0 }, 11)]
+        [TestCase(new int[] { 10, 2, 5, 1, 8, 20 }, 1)]
+        [TestCase(new int[] { 10, 2, 5, 1 }, 0)]
         public void Triangle_Default(int[] A, int expected)
         {
             ExecuteSolution(A, expected);
