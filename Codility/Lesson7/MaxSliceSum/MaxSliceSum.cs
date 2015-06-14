@@ -1,33 +1,25 @@
 ﻿namespace Codility
 {
     using System;
-    using System.Linq;
 
     public class MaxSliceSum
     {
         public static int Solution(int[] A)
         {
             int N = A.Length;
-            int[] sliceSum = new int[N];
-            int sliceNum = 0;
+            int maxEnding = A[0];
+            int maxSlice = A[0];
 
-            for (int i = 0; i < N; i++)
+            for (int i = 1; i < N; i++)
             {
-                int a = A[i];
+                int current = A[i];
+                ////if current > max + current, then use current
+                maxEnding = Math.Max(current, maxEnding + current);
 
-                if (A[i] < 0)
-                {
-                    sliceNum++;
-                    sliceSum[sliceNum] += a;
-                    sliceNum++;
-                }
-                else
-                {
-                    sliceSum[sliceNum] += a;
-                }
+                maxSlice = Math.Max(maxSlice, maxEnding);
             }
 
-            return sliceSum.Max(x => x);
+            return maxSlice;
         }
     }
 }
