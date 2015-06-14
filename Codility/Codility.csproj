@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Demo\Equilibrium.cs" />
+    <Compile Include="Lesson14\MaxNonoverlappingSegments\MaxNonoverlappingSegments.cs" />
     <Compile Include="Lesson1\FrogJmp\FrogJmp.cs" />
     <Compile Include="Lesson1\PermMissingElem\PermMissingElem.cs" />
     <Compile Include="Lesson1\TapeEquilibrium\TapeEquilibrium.cs" />
