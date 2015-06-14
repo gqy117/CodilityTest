@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Lesson14\MaxNonoverlappingSegmentsTest.cs" />
+    <Compile Include="Lesson14\TieRopesTest.cs" />
     <Compile Include="Lesson1\FrogJmpTest.cs" />
     <Compile Include="Demo\EquilibriumTest.cs" />
     <Compile Include="Lesson2\FrogRiverOneTest.cs" />
