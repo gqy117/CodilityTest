@@ -13,9 +13,9 @@
         }
 
         [Test]
-        [TestCase(new int[] { 1, -1000, 1, 1, 1, -1000, 1 }, 2)]
+        [TestCase(new int[] { 1, -1000, 1, 1, 1, -1000, 1 }, 3)]
         [TestCase(new int[] { 1, -1000, 1, -1, 1, -1000, 1 }, 2)]
-        [TestCase(new int[] { 1, -1000, 1, -1, -1000, 1, -1000, 1 }, 0)]
+        [TestCase(new int[] { 1, -1000, 1, -1, -1000, 1, -1000, 1 }, 1)]
         public void MaxDoubleSliceSum_BigNegativeInTheMiddle(int[] A, int expected)
         {
             ExecuteSolution(A, expected);

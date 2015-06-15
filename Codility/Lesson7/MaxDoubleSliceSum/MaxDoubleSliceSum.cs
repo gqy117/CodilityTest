@@ -7,54 +7,26 @@
         public static int Solution(int[] A)
         {
             int N = A.Length;
-            int X = 0;
-            int Y = 1;
-            int Z = N - 1;
-            int totalLoseCausedByX = A[0];
-            int totalLoseCausedByY = A[1];
-            int totalLoseCausedByZ = A[N - 1];
-            int sum = 0;
+            int[] K1 = new int[N];
+            int[] K2 = new int[N];
+            int result = 0;
 
-            for (int i = 0; i < N - 2; i++)
+            for (int i = 1; i < N - 1; i++)
             {
-                int current = A[i];
-
-                if (current + sum < totalLoseCausedByX)
-                {
-                    X = i;
-                    Y = X + 1;
-                    totalLoseCausedByY = A[Y];
-                }
-                else if (i > X)
-                {
-                    if (current < totalLoseCausedByY)
-                    {
-                        Y = i; 
-                        totalLoseCausedByY = Math.Min(current, totalLoseCausedByY);
-                    }
-                }
-
-                totalLoseCausedByX = Math.Min(current + sum, totalLoseCausedByX);
-                sum += current;
+                K1[i] = Math.Max(0, K1[i - 1] + A[i]);
             }
 
-            int all = sum + A[N - 1] + A[N - 2];
-
-            sum = 0;
-            for (int i = N - 1; i > X + 1; i--)
+            for (int i = N - 2; i > 0; i--)
             {
-                int current = A[i];
-
-                if (current + sum < totalLoseCausedByZ)
-                {
-                    Z = i;
-                }
-
-                totalLoseCausedByZ = Math.Min(current + sum, totalLoseCausedByZ);
-                sum += current;
+                K2[i] = Math.Max(0, K2[i + 1] + A[i]);
             }
 
-            return all - totalLoseCausedByX - totalLoseCausedByY - totalLoseCausedByZ;
+            for (int i = 1; i < N - 1; i++)
+            {
+                result = Math.Max(result, K1[i - 1] + K2[i + 1]);
+            }
+
+            return result;
         }
     }
 }
