@@ -13,6 +13,21 @@
             ExecuteSolution(S, expected);
         }
 
+        [Test]
+        [TestCase("({)}", 0)]
+        [TestCase("{(())}", 1)]
+        public void Brackets_SmallBracketOnTheRightOfLargeBracket(string S, int expected)
+        {
+            ExecuteSolution(S, expected);
+        }
+
+        [Test]
+        [TestCase("", 1)]
+        public void Brackets_Empty(string S, int expected)
+        {
+            ExecuteSolution(S, expected);
+        }
+
         private static void ExecuteSolution(string S, int expected)
         {
             // Arrange
