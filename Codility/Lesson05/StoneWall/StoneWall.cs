@@ -10,35 +10,53 @@
         public static int Solution(int[] H)
         {
             int N = H.Length;
+            int blockCount = 0;
             IList<int> stack = new List<int>();
-            int block = 0;
 
             for (int i = 0; i < N; i++)
             {
-                // Current Height
                 int height = H[i];
 
-                if (!stack.Any() || stack.Last() != height)
+                //// If there is no block, then we have no choice but to add one
+                if (!stack.Any())
                 {
-                    // Try to find a low block to stand on
+                    stack.Add(height);
+                    blockCount++;
+                }
+                else if (height == stack.Last())
+                {
+                    /*The last block is exact the same as the current height
+                       Do nothing, since they can share the block*/
+                    continue;
+                }
+                else
+                {
+                    /*Keep removing the last block, 
+                     * until is LOWER or the SAME as the current height*/
+
                     while (stack.Any() && stack.Last() > height)
                     {
+                        //// Remove last one
                         stack.RemoveAt(stack.Count - 1);
                     }
 
-                    // The last block is not satisfied the required height
-                    if (height != stack.LastOrDefault())
+                    //// If it' the same
+                    if (stack.Any() && height == stack.Last())
                     {
-                        // Add a block of the same height as required
-                        stack.Add(height);
+                        continue;
+                    }
+                    else
+                    {
+                        /* If it's lower, 
+                         * we add a new block based on the lower one*/
 
-                        // Use a new block
-                        block++;
+                        stack.Add(height);
+                        blockCount++;
                     }
                 }
             }
 
-            return block;
+            return blockCount;
         }
     }
 }
