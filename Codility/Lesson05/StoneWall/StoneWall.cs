@@ -21,7 +21,10 @@
                 if (!stack.Any() || stack.Last() != height)
                 {
                     // Try to find a low block to stand on
-                    stack = stack.Where(x => x <= height).ToList();
+                    while (stack.Any() && stack.Last() > height)
+                    {
+                        stack.RemoveAt(stack.Count - 1);
+                    }
 
                     // The last block is not satisfied the required height
                     if (height != stack.LastOrDefault())
