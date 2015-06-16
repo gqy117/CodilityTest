@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Lesson05\FishTest.cs" />
+    <Compile Include="Lesson05\NestingTest.cs" />
     <Compile Include="Lesson05\StoneWallTest.cs" />
     <Compile Include="Lesson12\MinMaxDivisionTest.cs" />
     <Compile Include="Lesson12\NailingPlanksTest.cs" />
