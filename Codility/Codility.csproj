@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Demo\Equilibrium.cs" />
+    <Compile Include="Lesson05\Fish\Fish.cs" />
     <Compile Include="Lesson05\StoneWall\StoneWall.cs" />
     <Compile Include="Lesson07\MaxDoubleSliceSum\MaxDoubleSliceSum.cs" />
     <Compile Include="Lesson07\MaxProfit\MaxProfit.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Lesson05\Fish\Fish.docx" />
     <None Include="Lesson05\StoneWall\StoneWall.docx" />
     <None Include="Lesson07\MaxDoubleSliceSum\MaxDoubleSliceSum.docx" />
     <None Include="Lesson07\MaxProfit\MaxProfit.docx" />
