@@ -48,6 +48,7 @@
     <Compile Include="Lesson05\FishTest.cs" />
     <Compile Include="Lesson05\NestingTest.cs" />
     <Compile Include="Lesson05\StoneWallTest.cs" />
+    <Compile Include="Lesson06\DominatorTest.cs" />
     <Compile Include="Lesson12\MinMaxDivisionTest.cs" />
     <Compile Include="Lesson12\NailingPlanksTest.cs" />
     <Compile Include="Lesson14\MaxNonoverlappingSegmentsTest.cs" />
