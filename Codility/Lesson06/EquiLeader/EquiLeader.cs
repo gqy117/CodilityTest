@@ -6,10 +6,12 @@
 
     public class EquiLeader
     {
+        private const int NoneLeader = -2000000000;
+
         public static int Solution(int[] A)
         {
             int N = A.Length;
-            IList<int> listA = A.ToList();
+            Dictionary<int, int> countA = new Dictionary<int, int>();
             int[] leaderLeft = new int[N - 1];
             int[] leaderRight = new int[N - 1];
 
@@ -17,9 +19,11 @@
 
             for (int S = 0; S < N - 1; S++)
             {
+                CountNumber(countA, A[S]);
+
                 PushOrPopLeftStack(A, leaderCandidate, S);
 
-                var leader = GetLeftLeader(leaderCandidate, listA, S);
+                var leader = GetLeftLeader(leaderCandidate, countA, S);
 
                 leaderLeft[S] = leader;
             }
@@ -27,9 +31,11 @@
             leaderCandidate = new Stack<int>();
             for (int S = N - 2; S >= 0; S--)
             {
+                CountNumber(countA, A[S]);
+
                 PushOrPopRightStack(A, leaderCandidate, S);
 
-                var leader = GetRightLeader(leaderCandidate, listA, S);
+                var leader = GetRightLeader(leaderCandidate, countA, S, A.Count());
 
                 leaderRight[S] = leader;
             }
@@ -37,7 +43,7 @@
             int count = 0;
             for (int i = 0; i < N - 1; i++)
             {
-                if (leaderLeft[i] == leaderRight[i] && leaderLeft[i] != -1)
+                if (leaderLeft[i] == leaderRight[i] && leaderLeft[i] != NoneLeader)
                 {
                     count++;
                 }
@@ -46,58 +52,61 @@
             return count;
         }
 
-        private static void PushOrPopLeftStack(int[] A, Stack<int> leaderCandidate, int S)
+        private static void CountNumber(Dictionary<int, int> countA, int value)
+        {
+            if (!countA.ContainsKey(value))
+            {
+                countA.Add(value, 1);
+            }
+            else
+            {
+                countA[value]++;
+            }
+        }
+
+        private static void PushOrPopStack(int value, Stack<int> leaderCandidate)
         {
             if (!leaderCandidate.Any() ||
-                A[S] == leaderCandidate.Peek())
+                value == leaderCandidate.Peek())
             {
-                leaderCandidate.Push(A[S]);
+                leaderCandidate.Push(value);
             }
             else
             {
                 leaderCandidate.Pop();
             }
+        }
+
+        private static void PushOrPopLeftStack(int[] A, Stack<int> leaderCandidate, int S)
+        {
+            PushOrPopStack(A[S], leaderCandidate);
         }
 
         private static void PushOrPopRightStack(int[] A, Stack<int> leaderCandidate, int S)
         {
-            if (!leaderCandidate.Any() ||
-                A[S + 1] == leaderCandidate.Peek())
-            {
-                leaderCandidate.Push(A[S + 1]);
-            }
-            else
-            {
-                leaderCandidate.Pop();
-            }
+            PushOrPopStack(A[S + 1], leaderCandidate);
         }
 
-        private static int GetLeftLeader(Stack<int> leaderCandidate, IList<int> listA, int S)
+        private static int GetLeftLeader(Stack<int> leaderCandidate, Dictionary<int, int> countA, int S)
         {
-            int leader = -1;
+            return GetLeader(leaderCandidate, countA, S + 1);
+        }
+
+        private static int GetRightLeader(Stack<int> leaderCandidate, Dictionary<int, int> countA, int S, int count)
+        {
+            return GetLeader(leaderCandidate, countA, count - S - 1);
+        }
+
+        private static int GetLeader(Stack<int> leaderCandidate, Dictionary<int, int> countA, int currentLength)
+        {
+            int leader = NoneLeader;
 
             if (leaderCandidate.Any())
             {
                 int possibleLeader = leaderCandidate.Peek();
-                int currentLength = S + 1;
-                if (listA.Take(currentLength).Count(x => x == possibleLeader) > currentLength / 2)
-                {
-                    leader = possibleLeader;
-                }
-            }
 
-            return leader;
-        }
-
-        private static int GetRightLeader(Stack<int> leaderCandidate, IList<int> listA, int S)
-        {
-            int leader = -1;
-
-            if (leaderCandidate.Any())
-            {
-                int possibleLeader = leaderCandidate.Peek();
-                int currentLength = listA.Count - S - 1;
-                if (listA.Skip(S + 1).Take(currentLength).Count(x => x == possibleLeader) > currentLength / 2)
+                if (countA.ContainsKey(possibleLeader) &&
+                    countA[possibleLeader] > currentLength / 2)
                 {
                     leader = possibleLeader;
                 }
