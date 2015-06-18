@@ -51,6 +51,7 @@
     <Compile Include="Lesson07\MaxDoubleSliceSum\MaxDoubleSliceSum.cs" />
     <Compile Include="Lesson07\MaxProfit\MaxProfit.cs" />
     <Compile Include="Lesson07\MaxSliceSum\MaxSliceSum.cs" />
+    <Compile Include="Lesson08\MinPerimeterRectangle\MinPerimeterRectangle.cs" />
     <Compile Include="Lesson12\MinMaxDivision\MinMaxDivision.cs" />
     <Compile Include="Lesson12\NailingPlanks\NailingPlanks.cs" />
     <Compile Include="Lesson14\MaxNonoverlappingSegments\MaxNonoverlappingSegments.cs" />
@@ -82,6 +83,7 @@
     <None Include="Lesson07\MaxDoubleSliceSum\MaxDoubleSliceSum.docx" />
     <None Include="Lesson07\MaxProfit\MaxProfit.docx" />
     <None Include="Lesson07\MaxSliceSum\MaxSliceSum.docx" />
+    <None Include="Lesson08\MinPerimeterRectangle\MinPerimeterRectangle.docx" />
     <None Include="Lesson12\MinMaxDivision\MinMaxDivision.docx" />
     <None Include="Lesson12\NailingPlanks\NailingPlanks.docx" />
     <None Include="Lesson14\MaxNonoverlappingSegments\MaxNonoverlappingSegments.docx" />
