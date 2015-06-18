@@ -50,6 +50,7 @@
     <Compile Include="Lesson05\StoneWallTest.cs" />
     <Compile Include="Lesson06\DominatorTest.cs" />
     <Compile Include="Lesson06\EquiLeaderTest.cs" />
+    <Compile Include="Lesson08\MinPerimeterRectangleTest.cs" />
     <Compile Include="Lesson12\MinMaxDivisionTest.cs" />
     <Compile Include="Lesson12\NailingPlanksTest.cs" />
     <Compile Include="Lesson14\MaxNonoverlappingSegmentsTest.cs" />
