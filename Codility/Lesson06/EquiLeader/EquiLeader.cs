@@ -12,8 +12,8 @@
         {
             int N = A.Length;
             Dictionary<int, int> countA = new Dictionary<int, int>();
-            int[] leaderLeft = new int[N - 1];
-            int[] leaderRight = new int[N - 1];
+            int[] leaderLeft = new int[N];
+            int[] leaderRight = new int[N];
 
             Stack<int> leaderCandidate = new Stack<int>();
 
@@ -29,7 +29,8 @@
             }
 
             leaderCandidate = new Stack<int>();
-            for (int S = N - 2; S >= 0; S--)
+            countA = new Dictionary<int, int>();
+            for (int S = N - 1; S >= 1; S--)
             {
                 CountNumber(countA, A[S]);
 
@@ -43,7 +44,7 @@
             int count = 0;
             for (int i = 0; i < N - 1; i++)
             {
-                if (leaderLeft[i] == leaderRight[i] && leaderLeft[i] != NoneLeader)
+                if (leaderLeft[i] == leaderRight[i + 1] && leaderLeft[i] != NoneLeader)
                 {
                     count++;
                 }
@@ -84,7 +85,7 @@
 
         private static void PushOrPopRightStack(int[] A, Stack<int> leaderCandidate, int S)
         {
-            PushOrPopStack(A[S + 1], leaderCandidate);
+            PushOrPopStack(A[S], leaderCandidate);
         }
 
         private static int GetLeftLeader(Stack<int> leaderCandidate, Dictionary<int, int> countA, int S)
@@ -94,7 +95,7 @@
 
         private static int GetRightLeader(Stack<int> leaderCandidate, Dictionary<int, int> countA, int S, int count)
         {
-            return GetLeader(leaderCandidate, countA, count - S - 1);
+            return GetLeader(leaderCandidate, countA, count - S);
         }
 
         private static int GetLeader(Stack<int> leaderCandidate, Dictionary<int, int> countA, int currentLength)
