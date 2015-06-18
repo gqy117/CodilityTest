@@ -47,6 +47,7 @@
     <Compile Include="Lesson05\Nesting\Nesting.cs" />
     <Compile Include="Lesson05\StoneWall\StoneWall.cs" />
     <Compile Include="Lesson06\Dominator\Dominator.cs" />
+    <Compile Include="Lesson06\EquiLeader\EquiLeader.cs" />
     <Compile Include="Lesson07\MaxDoubleSliceSum\MaxDoubleSliceSum.cs" />
     <Compile Include="Lesson07\MaxProfit\MaxProfit.cs" />
     <Compile Include="Lesson07\MaxSliceSum\MaxSliceSum.cs" />
@@ -77,6 +78,7 @@
     <None Include="Lesson05\Nesting\Nesting.docx" />
     <None Include="Lesson05\StoneWall\StoneWall.docx" />
     <None Include="Lesson06\Dominator\Dominator.docx" />
+    <None Include="Lesson06\EquiLeader\EquiLeader.docx" />
     <None Include="Lesson07\MaxDoubleSliceSum\MaxDoubleSliceSum.docx" />
     <None Include="Lesson07\MaxProfit\MaxProfit.docx" />
     <None Include="Lesson07\MaxSliceSum\MaxSliceSum.docx" />
