@@ -52,6 +52,7 @@
     <Compile Include="Lesson06\EquiLeaderTest.cs" />
     <Compile Include="Lesson08\CountFactorsTest.cs" />
     <Compile Include="Lesson08\MinPerimeterRectangleTest.cs" />
+    <Compile Include="Lesson08\PeaksTest.cs" />
     <Compile Include="Lesson12\MinMaxDivisionTest.cs" />
     <Compile Include="Lesson12\NailingPlanksTest.cs" />
     <Compile Include="Lesson14\MaxNonoverlappingSegmentsTest.cs" />

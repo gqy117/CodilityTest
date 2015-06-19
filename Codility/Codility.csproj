@@ -53,6 +53,7 @@
     <Compile Include="Lesson07\MaxSliceSum\MaxSliceSum.cs" />
     <Compile Include="Lesson08\CountFactors\CountFactors.cs" />
     <Compile Include="Lesson08\MinPerimeterRectangle\MinPerimeterRectangle.cs" />
+    <Compile Include="Lesson08\Peaks\Peaks.cs" />
     <Compile Include="Lesson12\MinMaxDivision\MinMaxDivision.cs" />
     <Compile Include="Lesson12\NailingPlanks\NailingPlanks.cs" />
     <Compile Include="Lesson14\MaxNonoverlappingSegments\MaxNonoverlappingSegments.cs" />
@@ -86,6 +87,7 @@
     <None Include="Lesson07\MaxSliceSum\MaxSliceSum.docx" />
     <None Include="Lesson08\CountFactors\CountFactors.docx" />
     <None Include="Lesson08\MinPerimeterRectangle\MinPerimeterRectangle.docx" />
+    <None Include="Lesson08\Peaks\Peaks.docx" />
     <None Include="Lesson12\MinMaxDivision\MinMaxDivision.docx" />
     <None Include="Lesson12\NailingPlanks\NailingPlanks.docx" />
     <None Include="Lesson14\MaxNonoverlappingSegments\MaxNonoverlappingSegments.docx" />
