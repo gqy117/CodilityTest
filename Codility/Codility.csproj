@@ -91,6 +91,7 @@
     <None Include="Lesson08\MinPerimeterRectangle\MinPerimeterRectangle.docx" />
     <None Include="Lesson08\Peaks\Peaks.docx" />
     <None Include="Lesson09\CountSemiprimes\CountSemiprimes.docx" />
+    <None Include="Lesson10\ChocolatesByNumbers\ChocolatesByNumbers.docx" />
     <None Include="Lesson12\MinMaxDivision\MinMaxDivision.docx" />
     <None Include="Lesson12\NailingPlanks\NailingPlanks.docx" />
     <None Include="Lesson14\MaxNonoverlappingSegments\MaxNonoverlappingSegments.docx" />
