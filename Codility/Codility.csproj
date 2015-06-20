@@ -55,6 +55,7 @@
     <Compile Include="Lesson08\MinPerimeterRectangle\MinPerimeterRectangle.cs" />
     <Compile Include="Lesson08\Peaks\Peaks.cs" />
     <Compile Include="Lesson09\CountSemiprimes\CountSemiprimes.cs" />
+    <Compile Include="Lesson10\ChocolatesByNumbers\ChocolatesByNumbers.cs" />
     <Compile Include="Lesson12\MinMaxDivision\MinMaxDivision.cs" />
     <Compile Include="Lesson12\NailingPlanks\NailingPlanks.cs" />
     <Compile Include="Lesson14\MaxNonoverlappingSegments\MaxNonoverlappingSegments.cs" />
@@ -113,7 +114,6 @@
     <None Include="Settings.StyleCop" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Lesson10\" />
     <Folder Include="Lesson11\" />
     <Folder Include="Lesson13\" />
     <Folder Include="Lesson15\" />

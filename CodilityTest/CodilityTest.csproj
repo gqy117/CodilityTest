@@ -54,6 +54,7 @@
     <Compile Include="Lesson08\MinPerimeterRectangleTest.cs" />
     <Compile Include="Lesson08\PeaksTest.cs" />
     <Compile Include="Lesson09\CountSemiprimesTest.cs" />
+    <Compile Include="Lesson10\ChocolatesByNumbersTest.cs" />
     <Compile Include="Lesson12\MinMaxDivisionTest.cs" />
     <Compile Include="Lesson12\NailingPlanksTest.cs" />
     <Compile Include="Lesson14\MaxNonoverlappingSegmentsTest.cs" />
@@ -89,7 +90,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Lesson10\" />
     <Folder Include="Lesson13\" />
     <Folder Include="Lesson15\" />
     <Folder Include="Lesson99\" />
