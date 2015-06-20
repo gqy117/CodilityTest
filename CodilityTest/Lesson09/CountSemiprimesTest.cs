@@ -6,13 +6,20 @@
     public class CountSemiprimesTest
     {
         [Test]
-        [TestCase(26, new int[] { 1, 4, 16 }, new int[] { 26, 10, 20 }, new int[] { 10, 0, 4 })]
-        public void CountSemiprimes_Default(int N, int[] P, int[] Q, int expected)
+        [TestCase(26, new int[] { 1, 4, 16 }, new int[] { 26, 10, 20 }, new int[] { 10, 4, 0 })]
+        public void CountSemiprimes_Default(int N, int[] P, int[] Q, int[] expected)
         {
             ExecuteSolution(N, P, Q, expected);
         }
 
-        private static void ExecuteSolution(int N, int[] P, int[] Q, int expected)
+        [Test]
+        [TestCase(1, new int[] { 1 }, new int[] { 1 }, new int[] { 0 })]
+        public void CountSemiprimes_N1(int N, int[] P, int[] Q, int[] expected)
+        {
+            ExecuteSolution(N, P, Q, expected);
+        }
+
+        private static void ExecuteSolution(int N, int[] P, int[] Q, int[] expected)
         {
             // Arrange
 
