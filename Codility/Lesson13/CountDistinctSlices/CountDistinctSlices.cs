@@ -13,51 +13,28 @@
                 return 1;
             }
 
-            Dictionary<int, int> distinctValue = new Dictionary<int, int>()
+            Dictionary<int, int> lastPosition = new Dictionary<int, int>();
+            for (int i = 0; i < N; i++)
             {
-                { A[0], A[0] }
-            };
-
-            int start = 0;
-            int end = 0;
-            int count = 0;
-
-            while (end < N - 1 && start < N - 1)
-            {
-                int currentValue = 0;
-
-                while (end < N - 1 && !distinctValue.ContainsKey(A[end + 1]))
-                {
-                    end++;
-                    currentValue = A[end];
-                    distinctValue.Add(currentValue, currentValue);
-                    count++;
-                }
-
-                while (start <= end)
-                {
-                    if (start != end)
-                    {
-                        distinctValue.Remove(A[start]);
-                        start++;
-                        if (start != end)
-                        {
-                            count++;
-                        }
-                    }
-                    else
-                    {
-                        distinctValue.Clear();
-                        start++;
-                        end++;
-                        distinctValue.Add(A[start], A[start]);
-                    }
-
-                    break;
-                }
+                lastPosition[A[i]] = -1;
             }
 
-            return A.Length + count;
+            int count = 0;
+            int start = -1;
+
+            for (int end = 0; end < N; end++)
+            {
+                if (lastPosition[A[end]] > start)
+                {
+                    start = lastPosition[A[end]];
+                }
+
+                count += end - start;
+
+                lastPosition[A[end]] = end;
+            }
+
+            return count;
         }
     }
 }
