@@ -58,6 +58,7 @@
     <Compile Include="Lesson10\ChocolatesByNumbers\ChocolatesByNumbers.cs" />
     <Compile Include="Lesson12\MinMaxDivision\MinMaxDivision.cs" />
     <Compile Include="Lesson12\NailingPlanks\NailingPlanks.cs" />
+    <Compile Include="Lesson13\AbsDistinct.cs" />
     <Compile Include="Lesson14\MaxNonoverlappingSegments\MaxNonoverlappingSegments.cs" />
     <Compile Include="Lesson14\TieRopes\TieRopes.cs" />
     <Compile Include="Lesson01\FrogJmp\FrogJmp.cs" />
@@ -94,6 +95,7 @@
     <None Include="Lesson10\ChocolatesByNumbers\ChocolatesByNumbers.docx" />
     <None Include="Lesson12\MinMaxDivision\MinMaxDivision.docx" />
     <None Include="Lesson12\NailingPlanks\NailingPlanks.docx" />
+    <None Include="Lesson13\AbsDistinct.docx" />
     <None Include="Lesson14\MaxNonoverlappingSegments\MaxNonoverlappingSegments.docx" />
     <None Include="Lesson14\TieRopes\TieRopes.docx" />
     <None Include="Lesson01\FrogJmp\FrogJmp.docx" />
@@ -116,7 +118,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Lesson11\" />
-    <Folder Include="Lesson13\" />
     <Folder Include="Lesson15\" />
     <Folder Include="Lesson99\" />
   </ItemGroup>
