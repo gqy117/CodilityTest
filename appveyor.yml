@@ -26,8 +26,8 @@ build:
 
 test_script:
 - ps: >-
-    packages\OpenCover.4.6.166\tools\OpenCover.Console.exe -register:user -target:nunit-console.exe "-targetargs:""CodilityTest\bin\$env:CONFIGURATION\CodilityTest.dll"" /noshadow" -filter:"+[CodilityTest*]*" -output:opencoverCoverage.xml
-    $coveralls = (Resolve-Path "packages/coveralls.net.*/tools/csmacnz.coveralls.exe").ToString()
+    .\packages\OpenCover.4.6.166\tools\OpenCover.Console.exe -register:user -target:nunit-console.exe "-targetargs:"".\CodilityTest\bin\$env:CONFIGURATION\CodilityTest.dll"" /noshadow" -filter:"+[CodilityTest*]*" -output:opencoverCoverage.xml
+    $coveralls = (Resolve-Path "packages/coveralls.net.0.6.0/tools/csmacnz.coveralls.exe").ToString()
     
     $env:APPVEYOR_BUILD_NUMBER
     
