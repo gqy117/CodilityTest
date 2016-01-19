@@ -3,6 +3,7 @@
     using Codility;
     using NUnit.Framework;
 
+    [Ignore]
     public class PeaksTest
     {
         [Test]
