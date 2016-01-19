@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Leo.Li\Documents\CodilityTest\CodilityTest\bin\Debug\CodilityTest.dll" total="219" errors="0" failures="0" not-run="2" inconclusive="0" ignored="2" skipped="0" invalid="0" date="2016-01-19" time="15:13:48">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Users\Leo.Li\Documents\CodilityTest\packages\NUnit.Runners.2.6.4\tools" machine-name="NZAKL009221N" user="leo.li" user-domain="MYOB" />
+  <culture-info current-culture="en-AU" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\Leo.Li\Documents\CodilityTest\CodilityTest\bin\Debug\CodilityTest.dll" executed="True" result="Success" success="True" time="22.784" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="CodilityTest" executed="True" result="Success" success="True" time="22.778" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="AbsDistinctTest" executed="True" result="Success" success="True" time="0.045" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="AbsDistinct_Default" executed="True" result="Success" success="True" time="0.036" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.AbsDistinctTest.AbsDistinct_Default(System.Int32[],5)" executed="True" result="Success" success="True" time="0.034" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="AbsDistinct_Min" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.AbsDistinctTest.AbsDistinct_Min(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="AbsDistinct_N1" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.AbsDistinctTest.AbsDistinct_N1(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.AbsDistinctTest.AbsDistinct_N1(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="BracketsTest" executed="True" result="Success" success="True" time="0.011" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="Brackets_AllLeftBrackets" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.BracketsTest.Brackets_AllLeftBrackets(&quot;((&quot;,0)" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Brackets_Default" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.BracketsTest.Brackets_Default(&quot;{[()()]}&quot;,1)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="CodilityTest.BracketsTest.Brackets_Default(&quot;([)()]&quot;,0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Brackets_Empty" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.BracketsTest.Brackets_Empty(&quot;&quot;,1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Brackets_SmallBracketOnTheRightOfLargeBracket" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.BracketsTest.Brackets_SmallBracketOnTheRightOfLargeBracket(&quot;({)}&quot;,0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.BracketsTest.Brackets_SmallBracketOnTheRightOfLargeBracket(&quot;{(())}&quot;,1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.BracketsTest.Brackets_SmallBracketOnTheRightOfLargeBracket(&quot;(([]))&quot;,1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="ChocolatesByNumbersTest" executed="True" result="Success" success="True" time="22.091" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="ChocolatesByNumbers_Default" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.ChocolatesByNumbersTest.ChocolatesByNumbers_Default(10,4,5)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="ChocolatesByNumbers_N1" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.ChocolatesByNumbersTest.ChocolatesByNumbers_N1(1,1,1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="ChocolatesByNumbers_N1_M4" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.ChocolatesByNumbersTest.ChocolatesByNumbers_N1_M4(1,4,1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="ChocolatesByNumbers_N1_MMax" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.ChocolatesByNumbersTest.ChocolatesByNumbers_N1_MMax(1,1000000000,1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="ChocolatesByNumbers_N10_M9" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.ChocolatesByNumbersTest.ChocolatesByNumbers_N10_M9(10,9,10)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="ChocolatesByNumbers_NMax_M1" executed="True" result="Success" success="True" time="6.747" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.ChocolatesByNumbersTest.ChocolatesByNumbers_NMax_M1(1000000000,1,1000000000)" executed="True" result="Success" success="True" time="6.746" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="ChocolatesByNumbers_NMax_MMax" executed="True" result="Success" success="True" time="0.102" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.ChocolatesByNumbersTest.ChocolatesByNumbers_NMax_MMax(1000000000,1000000000,1)" executed="True" result="Success" success="True" time="0.102" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="ChocolatesByNumbers_NMax_MMaxMinus1" executed="True" result="Success" success="True" time="15.235" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.ChocolatesByNumbersTest.ChocolatesByNumbers_NMax_MMaxMinus1(1000000000,999999999,1000000000)" executed="True" result="Success" success="True" time="15.235" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="CountDistinctSlicesTest" executed="True" result="Success" success="True" time="0.009" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="CountDistinctSlices_Default" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.CountDistinctSlicesTest.CountDistinctSlices_Default(6,System.Int32[],9)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="CountDistinctSlices_N1" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.CountDistinctSlicesTest.CountDistinctSlices_N1(6,System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="CountDistinctSlices_N2" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.CountDistinctSlicesTest.CountDistinctSlices_N2(6,System.Int32[],3)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="CountDistinctSlices_N2_SameValue" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.CountDistinctSlicesTest.CountDistinctSlices_N2_SameValue(6,System.Int32[],2)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="CountDistinctSlices_N3" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.CountDistinctSlicesTest.CountDistinctSlices_N3(6,System.Int32[],5)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="CountDistinctSlices_N4" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.CountDistinctSlicesTest.CountDistinctSlices_N4(6,System.Int32[],6)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="CountDistinctSlices_N5" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.CountDistinctSlicesTest.CountDistinctSlices_N5(6,System.Int32[],11)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="CountDivTest" executed="True" result="Success" success="True" time="0.007" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="CountDiv_A_B_Max_Min" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.CountDivTest.CountDiv_A_B_Max_Min(0,2000000000,1,2000000001)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.CountDivTest.CountDiv_A_B_Max_Min(2000000000,2000000000,1,1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.CountDivTest.CountDiv_A_B_Max_Min(0,0,1,1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="CountDiv_Default" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.CountDivTest.CountDiv_Default(6,12,2,4)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.CountDivTest.CountDiv_Default(6,14,2,5)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.CountDivTest.CountDiv_Default(6,11,2,3)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.CountDivTest.CountDiv_Default(6,13,2,4)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="CountDiv_From3To10_K2" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.CountDivTest.CountDiv_From3To10_K2(3,10,2,4)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="CountFactorsTest" executed="True" result="Success" success="True" time="0.006" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="CountFactors_1" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.CountFactorsTest.CountFactors_1(1,1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="CountFactors_16" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.CountFactorsTest.CountFactors_16(16,5)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="CountFactors_2" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.CountFactorsTest.CountFactors_2(2,2)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="CountFactors_69" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.CountFactorsTest.CountFactors_69(69,4)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="CountFactors_7" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.CountFactorsTest.CountFactors_7(7,2)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="CountFactors_Default" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.CountFactorsTest.CountFactors_Default(24,8)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="CountSemiprimesTest" executed="True" result="Success" success="True" time="0.011" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="CountSemiprimes_Default" executed="True" result="Success" success="True" time="0.010" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.CountSemiprimesTest.CountSemiprimes_Default(26,System.Int32[],System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.009" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="CountSemiprimes_N1" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.CountSemiprimesTest.CountSemiprimes_N1(1,System.Int32[],System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="DistinctTest" executed="True" result="Success" success="True" time="0.120" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="DistinctTest_Default" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.DistinctTest.DistinctTest_Default(System.Int32[],3)" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="DistinctTest_N0" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.DistinctTest.DistinctTest_N0(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="DistinctTest_N100000_AEqualsI" executed="True" result="Success" success="True" time="0.105" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.DistinctTest.DistinctTest_N100000_AEqualsI(100000,100000)" executed="True" result="Success" success="True" time="0.104" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="DistinctTest_N100000_AMax" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.DistinctTest.DistinctTest_N100000_AMax(100000,1)" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="DistinctTest_N100000_AMin" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.DistinctTest.DistinctTest_N100000_AMin(100000,1)" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="DominatorTest" executed="True" result="Success" success="True" time="0.011" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="Dominator_Default" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.DominatorTest.Dominator_Default(System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Dominator_LeaderAtTheBeginning" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.DominatorTest.Dominator_LeaderAtTheBeginning(System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Dominator_LeaderAtTheEnd" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.DominatorTest.Dominator_LeaderAtTheEnd(System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Dominator_LeaderCandidateAppearsHalfOfTheArray" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.DominatorTest.Dominator_LeaderCandidateAppearsHalfOfTheArray(System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Dominator_LeaderInTheMiddle" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.DominatorTest.Dominator_LeaderInTheMiddle(System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Dominator_NoLeader" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.DominatorTest.Dominator_NoLeader(System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="EquiLeaderTest" executed="True" result="Success" success="True" time="0.013" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="EquiLeader_Default" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.EquiLeaderTest.EquiLeader_Default(System.Int32[],2)" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="EquiLeader_LeaderInTheMiddle" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.EquiLeaderTest.EquiLeader_LeaderInTheMiddle(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.EquiLeaderTest.EquiLeader_LeaderInTheMiddle(System.Int32[],7)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="EquiLeader_Middle00000" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.EquiLeaderTest.EquiLeader_Middle00000(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="EquiLeader_Middle3" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.EquiLeaderTest.EquiLeader_Middle3(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="EquiLeader_N1" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.EquiLeaderTest.EquiLeader_N1(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="EquiLeader_N2" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.EquiLeaderTest.EquiLeader_N2(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.EquiLeaderTest.EquiLeader_N2(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="EquiLeader_N3" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.EquiLeaderTest.EquiLeader_N3(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.EquiLeaderTest.EquiLeader_N3(System.Int32[],2)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="EquiLeader_NIsLarge" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.EquiLeaderTest.EquiLeader_NIsLarge(205,200)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.EquiLeaderTest.EquiLeader_NIsLarge(305,300)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="EquilibriumTest" executed="True" result="Success" success="True" time="0.005" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="Equilibrium_BigNegativeNumber" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.EquilibriumTest.Equilibrium_BigNegativeNumber(System.Int32[],0)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Equilibrium_BigPositiveNumber" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.EquilibriumTest.Equilibrium_BigPositiveNumber(System.Int32[],2)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Equilibrium_Default" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.EquilibriumTest.Equilibrium_Default(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Equilibrium_LeftFirst" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.EquilibriumTest.Equilibrium_LeftFirst(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="FishTest" executed="True" result="Success" success="True" time="0.010" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="Fish_Default" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.FishTest.Fish_Default(System.Int32[],System.Int32[],2)" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Fish_N1" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.FishTest.Fish_N1(System.Int32[],System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.FishTest.Fish_N1(System.Int32[],System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Fish_N2" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.FishTest.Fish_N2(System.Int32[],System.Int32[],2)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.FishTest.Fish_N2(System.Int32[],System.Int32[],2)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.FishTest.Fish_N2(System.Int32[],System.Int32[],2)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.FishTest.Fish_N2(System.Int32[],System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.FishTest.Fish_N2(System.Int32[],System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.FishTest.Fish_N2(System.Int32[],System.Int32[],2)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.FishTest.Fish_N2(System.Int32[],System.Int32[],2)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.FishTest.Fish_N2(System.Int32[],System.Int32[],2)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="FrogJmpTest" executed="True" result="Success" success="True" time="0.005" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="FrogJmp_Default" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.FrogJmpTest.FrogJmp_Default(10,85,30,3)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="FrogJmp_XEqualsY" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.FrogJmpTest.FrogJmp_XEqualsY(10,10,30,0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="FrogJmp_XMax_YMax" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.FrogJmpTest.FrogJmp_XMax_YMax(1000000000,1000000000,1,0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="FrogJmp_XMin_YMax" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.FrogJmpTest.FrogJmp_XMin_YMax(1,1000000000,1,999999999)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="FrogJmp_XMin_YMin" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.FrogJmpTest.FrogJmp_XMin_YMin(1,1,1,0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="FrogRiverOneTest" executed="True" result="Success" success="True" time="0.006" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="FrogRiverOne_BigAValue_XEquals1" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.FrogRiverOneTest.FrogRiverOne_BigAValue_XEquals1(1,System.Int32[],-1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="FrogRiverOne_Default" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.FrogRiverOneTest.FrogRiverOne_Default(5,System.Int32[],6)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="FrogRiverOne_N100000_X100000" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.FrogRiverOneTest.FrogRiverOne_N100000_X100000(100000,99999)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="FrogRiverOne_NEquals1_XEquals1" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.FrogRiverOneTest.FrogRiverOne_NEquals1_XEquals1(1,System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="FrogRiverOne_NEquals1_XEquals2" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.FrogRiverOneTest.FrogRiverOne_NEquals1_XEquals2(2,System.Int32[],-1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="GenomicRangeQueryTest" executed="True" result="Success" success="True" time="0.058" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="GenomicRangeQuery_Default" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.GenomicRangeQueryTest.GenomicRangeQuery_Default(&quot;CAGCCTA&quot;,System.Int32[],System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="GenomicRangeQuery_ExtremeDouble" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.GenomicRangeQueryTest.GenomicRangeQuery_ExtremeDouble(&quot;AC&quot;,System.Int32[],System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="GenomicRangeQuery_N100000" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.GenomicRangeQueryTest.GenomicRangeQuery_N100000(100000,System.Int32[],System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="GenomicRangeQuery_N100000_M50000" executed="True" result="Success" success="True" time="0.025" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.GenomicRangeQueryTest.GenomicRangeQuery_N100000_M50000(100000,50000)" executed="True" result="Success" success="True" time="0.025" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="GenomicRangeQuery_N100000_M50000_ACGT" executed="True" result="Success" success="True" time="0.025" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.GenomicRangeQueryTest.GenomicRangeQuery_N100000_M50000_ACGT(100000,50000)" executed="True" result="Success" success="True" time="0.024" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="MaxCountersTest" executed="True" result="Success" success="True" time="0.085" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="MaxCounters_Default" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxCountersTest.MaxCounters_Default(5,System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+              <test-case name="CodilityTest.MaxCountersTest.MaxCounters_MaxN" executed="True" result="Success" success="True" time="0.041" asserts="1" />
+              <test-suite type="ParameterizedTest" name="MaxCounters_MaxN_A0Equals100001" executed="True" result="Success" success="True" time="0.039" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxCountersTest.MaxCounters_MaxN_A0Equals100001(100000,System.Int32[])" executed="True" result="Success" success="True" time="0.039" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MaxCounters_NEquals1" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxCountersTest.MaxCounters_NEquals1(1,System.Int32[],System.Int32[])" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="MaxDoubleSliceSumTest" executed="True" result="Success" success="True" time="0.007" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="MaxDoubleSliceSum_BigNegativeInTheMiddle" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxDoubleSliceSumTest.MaxDoubleSliceSum_BigNegativeInTheMiddle(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.MaxDoubleSliceSumTest.MaxDoubleSliceSum_BigNegativeInTheMiddle(System.Int32[],2)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.MaxDoubleSliceSumTest.MaxDoubleSliceSum_BigNegativeInTheMiddle(System.Int32[],3)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MaxDoubleSliceSum_Default" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxDoubleSliceSumTest.MaxDoubleSliceSum_Default(System.Int32[],17)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MaxDoubleSliceSum_N3" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxDoubleSliceSumTest.MaxDoubleSliceSum_N3(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.MaxDoubleSliceSumTest.MaxDoubleSliceSum_N3(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.MaxDoubleSliceSumTest.MaxDoubleSliceSum_N3(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.MaxDoubleSliceSumTest.MaxDoubleSliceSum_N3(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.MaxDoubleSliceSumTest.MaxDoubleSliceSum_N3(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="MaxNonoverlappingSegmentsTest" executed="True" result="Success" success="True" time="0.005" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="MaxNonoverlappingSegments_Default" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxNonoverlappingSegmentsTest.MaxNonoverlappingSegments_Default(System.Int32[],System.Int32[],3)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MaxNonoverlappingSegments_N0" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxNonoverlappingSegmentsTest.MaxNonoverlappingSegments_N0(System.Int32[],System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MaxNonoverlappingSegments_N1" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxNonoverlappingSegmentsTest.MaxNonoverlappingSegments_N1(System.Int32[],System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MaxNonoverlappingSegments_N2" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxNonoverlappingSegmentsTest.MaxNonoverlappingSegments_N2(System.Int32[],System.Int32[],2)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MaxNonoverlappingSegments_N3" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxNonoverlappingSegmentsTest.MaxNonoverlappingSegments_N3(System.Int32[],System.Int32[],3)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="MaxProductOfThreeTest" executed="True" result="Success" success="True" time="0.039" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="MaxProductOfThree_Default" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxProductOfThreeTest.MaxProductOfThree_Default(System.Int32[],60)" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MaxProductOfThree_N100000_AMaxMin" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxProductOfThreeTest.MaxProductOfThree_N100000_AMaxMin(100000,1000,1000000000)" executed="True" result="Success" success="True" time="0.014" asserts="1" />
+                  <test-case name="CodilityTest.MaxProductOfThreeTest.MaxProductOfThree_N100000_AMaxMin(100000,-1000,-1000000000)" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MaxProductOfThree_N3" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxProductOfThreeTest.MaxProductOfThree_N3(System.Int32[],1000000000)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.MaxProductOfThreeTest.MaxProductOfThree_N3(System.Int32[],-1000000000)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.MaxProductOfThreeTest.MaxProductOfThree_N3(System.Int32[],6)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MaxProductOfThree_NegativeAndPositive" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxProductOfThreeTest.MaxProductOfThree_NegativeAndPositive(System.Int32[],3000)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="MaxProfitTest" executed="True" result="Success" success="True" time="0.007" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="MaxProfit_Default" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxProfitTest.MaxProfit_Default(System.Int32[],356)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MaxProfit_N0" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxProfitTest.MaxProfit_N0(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MaxProfit_N1" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxProfitTest.MaxProfit_N1(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MaxProfit_N2" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxProfitTest.MaxProfit_N2(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.MaxProfitTest.MaxProfit_N2(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MaxProfit_N3" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxProfitTest.MaxProfit_N3(System.Int32[],2)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.MaxProfitTest.MaxProfit_N3(System.Int32[],2)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="MaxSliceSumTest" executed="True" result="Success" success="True" time="0.003" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="MaxSliceSum_AllNegative" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxSliceSumTest.MaxSliceSum_AllNegative(System.Int32[],-1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MaxSliceSum_Default" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxSliceSumTest.MaxSliceSum_Default(System.Int32[],5)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MaxSliceSum_SmallNegative" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MaxSliceSumTest.MaxSliceSum_SmallNegative(System.Int32[],5)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="MinAvgTwoSliceTest" executed="True" result="Success" success="True" time="0.012" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="MinAvgTwoSlice_Default" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MinAvgTwoSliceTest.MinAvgTwoSlice_Default(System.Int32[],3)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.MinAvgTwoSliceTest.MinAvgTwoSlice_Default(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.MinAvgTwoSliceTest.MinAvgTwoSlice_Default(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.MinAvgTwoSliceTest.MinAvgTwoSlice_Default(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MinAvgTwoSlice_N100000_Max_Min" executed="True" result="Success" success="True" time="0.005" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MinAvgTwoSliceTest.MinAvgTwoSlice_N100000_Max_Min(100000,10000,0)" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                  <test-case name="CodilityTest.MinAvgTwoSliceTest.MinAvgTwoSlice_N100000_Max_Min(100000,-10000,0)" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MinAvgTwoSlice_N2_Max_Min" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MinAvgTwoSliceTest.MinAvgTwoSlice_N2_Max_Min(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.MinAvgTwoSliceTest.MinAvgTwoSlice_N2_Max_Min(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.MinAvgTwoSliceTest.MinAvgTwoSlice_N2_Max_Min(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.MinAvgTwoSliceTest.MinAvgTwoSlice_N2_Max_Min(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="MinMaxDivisionTest" executed="False" result="Ignored">
+            <reason>
+              <message><![CDATA[]]></message>
+            </reason>
+            <results>
+              <test-suite type="ParameterizedTest" name="MinMaxDivision_Default" executed="False" result="Ignored">
+                <reason>
+                  <message><![CDATA[]]></message>
+                </reason>
+                <results>
+                  <test-case name="CodilityTest.MinMaxDivisionTest.MinMaxDivision_Default(3,5,System.Int32[],6)" executed="False" result="Ignored">
+                    <reason>
+                      <message><![CDATA[]]></message>
+                    </reason>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="MinPerimeterRectangleTest" executed="True" result="Success" success="True" time="0.006" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="MinPerimeterRectangle_Default" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MinPerimeterRectangleTest.MinPerimeterRectangle_Default(30,22)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MinPerimeterRectangle_N1" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MinPerimeterRectangleTest.MinPerimeterRectangle_N1(1,4)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MinPerimeterRectangle_N2" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MinPerimeterRectangleTest.MinPerimeterRectangle_N2(2,6)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MinPerimeterRectangle_N3" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MinPerimeterRectangleTest.MinPerimeterRectangle_N3(3,8)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="MissingIntegerTest" executed="True" result="Success" success="True" time="0.019" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="MissingInteger_Default" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MissingIntegerTest.MissingInteger_Default(System.Int32[],5)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MissingInteger_N1_Element1" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MissingIntegerTest.MissingInteger_N1_Element1(System.Int32[],2)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MissingInteger_N1_Element2" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MissingIntegerTest.MissingInteger_N1_Element2(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MissingInteger_N1_ElementMax" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MissingIntegerTest.MissingInteger_N1_ElementMax(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MissingInteger_N100000_ElementAllMax" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MissingIntegerTest.MissingInteger_N100000_ElementAllMax(100000,1)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MissingInteger_N100000_ElementAllMin" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MissingIntegerTest.MissingInteger_N100000_ElementAllMin(100000,1)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MissingInteger_N100000_ElementAllMin_And1" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MissingIntegerTest.MissingInteger_N100000_ElementAllMin_And1(100000,2)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MissingInteger_N100000_ElementOneByOne" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MissingIntegerTest.MissingInteger_N100000_ElementOneByOne(100000,100001)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MissingInteger_N2_ElementMax_ElementMax" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MissingIntegerTest.MissingInteger_N2_ElementMax_ElementMax(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MissingInteger_N2_ElementMax_ElementMin" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MissingIntegerTest.MissingInteger_N2_ElementMax_ElementMin(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="MissingInteger_N2_ElementMin_ElementMin" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.MissingIntegerTest.MissingInteger_N2_ElementMin_ElementMin(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="NailingPlanksTest" executed="True" result="Success" success="True" time="0.008" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="NailingPlanks_2" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.NailingPlanksTest.NailingPlanks_2(System.Int32[],System.Int32[],System.Int32[],2)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="NailingPlanks_Default" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.NailingPlanksTest.NailingPlanks_Default(System.Int32[],System.Int32[],System.Int32[],4)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="NailingPlanks_NotEnoughNails" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.NailingPlanksTest.NailingPlanks_NotEnoughNails(System.Int32[],System.Int32[],System.Int32[],-1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="NailingPlanks_NotPossible" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.NailingPlanksTest.NailingPlanks_NotPossible(System.Int32[],System.Int32[],System.Int32[],-1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="NailingPlanks_NotPossible2" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.NailingPlanksTest.NailingPlanks_NotPossible2(System.Int32[],System.Int32[],System.Int32[],-1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="NailingPlanks_OneNumberPossible" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.NailingPlanksTest.NailingPlanks_OneNumberPossible(System.Int32[],System.Int32[],System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="NailingPlanks_WastedALotOfNails" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.NailingPlanksTest.NailingPlanks_WastedALotOfNails(System.Int32[],System.Int32[],System.Int32[],-1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="NestingTest" executed="True" result="Success" success="True" time="0.006" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="Nesting_Default" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.NestingTest.Nesting_Default(&quot;(()(())())&quot;,1)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                  <test-case name="CodilityTest.NestingTest.Nesting_Default(&quot;())&quot;,0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Nesting_Empty" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.NestingTest.Nesting_Empty(&quot;&quot;,1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Nesting_InverseDirection" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.NestingTest.Nesting_InverseDirection(&quot;)(&quot;,0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Nesting_InverseDirection2" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.NestingTest.Nesting_InverseDirection2(&quot;))((&quot;,0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.NestingTest.Nesting_InverseDirection2(&quot;()()&quot;,1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="NumberOfDiscIntersectionsTest" executed="True" result="Success" success="True" time="0.005" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="NumberOfDiscIntersections_BigNumber" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.NumberOfDiscIntersectionsTest.NumberOfDiscIntersections_BigNumber(System.Int32[],2)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="NumberOfDiscIntersections_Default" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.NumberOfDiscIntersectionsTest.NumberOfDiscIntersections_Default(System.Int32[],11)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="NumberOfDiscIntersections_N1" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.NumberOfDiscIntersectionsTest.NumberOfDiscIntersections_N1(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.NumberOfDiscIntersectionsTest.NumberOfDiscIntersections_N1(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="NumberOfDiscIntersections_RandomSmall" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.NumberOfDiscIntersectionsTest.NumberOfDiscIntersections_RandomSmall(System.Int32[],3)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.NumberOfDiscIntersectionsTest.NumberOfDiscIntersections_RandomSmall(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="PassingCarsTest" executed="True" result="Success" success="True" time="0.010" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="PassingCars_1First" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.PassingCarsTest.PassingCars_1First(System.Int32[],5)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="PassingCars_3Pairs" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.PassingCarsTest.PassingCars_3Pairs(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="PassingCars_4Pairs" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.PassingCarsTest.PassingCars_4Pairs(System.Int32[],3)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="PassingCars_Default" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.PassingCarsTest.PassingCars_Default(System.Int32[],5)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="PassingCars_Double" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.PassingCarsTest.PassingCars_Double(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.PassingCarsTest.PassingCars_Double(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.PassingCarsTest.PassingCars_Double(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.PassingCarsTest.PassingCars_Double(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="PassingCars_N100000" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.PassingCarsTest.PassingCars_N100000(100000,-1)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="PassingCars_Single" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.PassingCarsTest.PassingCars_Single(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.PassingCarsTest.PassingCars_Single(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="PeaksTest" executed="False" result="Ignored">
+            <reason>
+              <message><![CDATA[]]></message>
+            </reason>
+            <results>
+              <test-suite type="ParameterizedTest" name="Peaks_Default" executed="False" result="Ignored">
+                <reason>
+                  <message><![CDATA[]]></message>
+                </reason>
+                <results>
+                  <test-case name="CodilityTest.PeaksTest.Peaks_Default(System.Int32[],3)" executed="False" result="Ignored">
+                    <reason>
+                      <message><![CDATA[]]></message>
+                    </reason>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="PermCheckTest" executed="True" result="Success" success="True" time="0.038" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="PermCheck_AEquals1_NEquals1" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.PermCheckTest.PermCheck_AEquals1_NEquals1(System.Int32[],1,1)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="PermCheck_AEquals1000000000_NEquals1" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.PermCheckTest.PermCheck_AEquals1000000000_NEquals1(System.Int32[],1,0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="PermCheck_Default" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.PermCheckTest.PermCheck_Default(System.Int32[],4,1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="PermCheck_EachOfAIs1000000000_MaxN" executed="True" result="Success" success="True" time="0.015" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.PermCheckTest.PermCheck_EachOfAIs1000000000_MaxN(0)" executed="True" result="Success" success="True" time="0.014" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="PermCheck_MaxA_MaxN" executed="True" result="Success" success="True" time="0.018" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.PermCheckTest.PermCheck_MaxA_MaxN(1)" executed="True" result="Success" success="True" time="0.018" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="PermMissingElemTest" executed="True" result="Success" success="True" time="0.025" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="PermMissingElem_0" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.PermMissingElemTest.PermMissingElem_0(System.Int32[],1)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+              <test-case name="CodilityTest.PermMissingElemTest.PermMissingElem_100000" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+              <test-suite type="ParameterizedTest" name="PermMissingElem_Default" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.PermMissingElemTest.PermMissingElem_Default(System.Int32[],4)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="PermMissingElem_DoubleLeft" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.PermMissingElemTest.PermMissingElem_DoubleLeft(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="PermMissingElem_DoubleRight" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.PermMissingElemTest.PermMissingElem_DoubleRight(System.Int32[],3)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="PermMissingElem_ShouldReturn1_WhenNumberIs2" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.PermMissingElemTest.PermMissingElem_ShouldReturn1_WhenNumberIs2(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="PermMissingElem_ShouldReturn2_WhenNumberIs1" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.PermMissingElemTest.PermMissingElem_ShouldReturn2_WhenNumberIs1(System.Int32[],2)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="StoneWallTest" executed="True" result="Success" success="True" time="0.001" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="StoneWall_Default" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.StoneWallTest.StoneWall_Default(System.Int32[],7)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="TapeEquilibriumTest" executed="True" result="Success" success="True" time="0.018" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="TapeEquilibrium_Default" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.TapeEquilibriumTest.TapeEquilibrium_Default(System.Int32[],1)" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                </results>
+              </test-suite>
+              <test-case name="CodilityTest.TapeEquilibriumTest.TapeEquilibrium_NEquals100000_EachElementIs1000" executed="True" result="Success" success="True" time="0.005" asserts="1" />
+              <test-case name="CodilityTest.TapeEquilibriumTest.TapeEquilibrium_NEquals100000_EachElementIsNegative1000" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+              <test-suite type="ParameterizedTest" name="TapeEquilibrium_NEquals2" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.TapeEquilibriumTest.TapeEquilibrium_NEquals2(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="TapeEquilibrium_NEquals3_1000_Minis1000_1" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.TapeEquilibriumTest.TapeEquilibrium_NEquals3_1000_Minis1000_1(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="TapeEquilibrium_NEquals3_Max_Max_1" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.TapeEquilibriumTest.TapeEquilibrium_NEquals3_Max_Max_1(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="TieRopesTest" executed="True" result="Success" success="True" time="0.005" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="TieRopes_Default" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.TieRopesTest.TieRopes_Default(4,System.Int32[],3)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="TieRopes_N1_K1" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.TieRopesTest.TieRopes_N1_K1(2,System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.TieRopesTest.TieRopes_N1_K1(1,System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.TieRopesTest.TieRopes_N1_K1(1,System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="TieRopes_N1_KMax" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.TieRopesTest.TieRopes_N1_KMax(1000000000,System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.TieRopesTest.TieRopes_N1_KMax(1000000000,System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="TriangleTest" executed="True" result="Success" success="True" time="0.008" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="Triangle_AMax" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.TriangleTest.Triangle_AMax(System.Int32[],1)" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Triangle_AMin" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.TriangleTest.Triangle_AMin(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Triangle_Default" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.TriangleTest.Triangle_Default(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.TriangleTest.Triangle_Default(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="ParameterizedTest" name="Triangle_N01234" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                <results>
+                  <test-case name="CodilityTest.TriangleTest.Triangle_N01234(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.TriangleTest.Triangle_N01234(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.TriangleTest.Triangle_N01234(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.TriangleTest.Triangle_N01234(System.Int32[],1)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="CodilityTest.TriangleTest.Triangle_N01234(System.Int32[],0)" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
