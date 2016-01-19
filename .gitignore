@@ -106,4 +106,7 @@ publish
 
 # Others
 ...
-WebSite/TestResults/
+
+# Nuget Packages
+packages/
+!packages/repositories.config
