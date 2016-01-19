@@ -4,6 +4,7 @@
     using NUnit.Framework;
 
     [TestFixture]
+    [Ignore]
     public class MinMaxDivisionTest
     {
         [Test]
