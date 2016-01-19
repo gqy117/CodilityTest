@@ -5,11 +5,9 @@ shallow_clone: true                 # default is "false"
 configuration: Release
 
 
+before_build:
+  - nuget restore CodilityTest.sln
 
-# to add several configurations to build matrix:
-#configuration:
-#  - Debug
-#  - Release
 
 build:
   parallel: true                    # enable MSBuild parallel builds
