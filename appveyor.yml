@@ -25,10 +25,6 @@ build:
 #---------------------------------#
 
 test_script:
-- ps: >-
-    .\packages\OpenCover.4.6.166\tools\OpenCover.Console.exe -register:user -target:nunit-console.exe "-targetargs:"".\CodilityTest\bin\$env:CONFIGURATION\CodilityTest.dll"" /noshadow" -filter:"+[CodilityTest*]*" -output:opencoverCoverage.xml
-    $coveralls = (Resolve-Path "packages/coveralls.net.0.6.0/tools/csmacnz.coveralls.exe").ToString()
-    
-    $env:APPVEYOR_BUILD_NUMBER
-    
-    & $coveralls --opencover -i opencoverCoverage.xml --repoToken $env:COVERALLS_REPO_TOKEN --commitId $env:APPVEYOR_REPO_COMMIT --commitBranch $env:APPVEYOR_REPO_BRANCH --commitAuthor $env:APPVEYOR_REPO_COMMIT_AUTHOR --commitEmail $env:APPVEYOR_REPO_COMMIT_AUTHOR_EMAIL --commitMessage $env:APPVEYOR_REPO_COMMIT_MESSAGE --jobId $env:APPVEYOR_BUILD_NUMBER --serviceName appveyor
+- ps: .\packages\OpenCover.4.6.166\tools\OpenCover.Console.exe -register:user -target:.\packages\NUnit.Runners.2.6.4\tools\nunit-console.exe "-targetargs:"".\CodilityTest\bin\$env:CONFIGURATION\CodilityTest.dll"" /noshadow" -filter:"+[CodilityTest*]*" -output:opencoverCoverage.xml
+
+- ps: .\packages\coveralls.net.0.6.0\tools\csmacnz.coveralls.exe --opencover -i opencoverCoverage.xml --repoToken $env:COVERALLS_REPO_TOKEN --commitId $env:APPVEYOR_REPO_COMMIT --commitBranch $env:APPVEYOR_REPO_BRANCH --commitAuthor $env:APPVEYOR_REPO_COMMIT_AUTHOR --commitEmail $env:APPVEYOR_REPO_COMMIT_AUTHOR_EMAIL --commitMessage $env:APPVEYOR_REPO_COMMIT_MESSAGE --jobId $env:APPVEYOR_BUILD_NUMBER --serviceName appveyor
